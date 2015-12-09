@@ -1,0 +1,23 @@
+
+    <div class="main">
+        <div class="header_ppp">
+            <h3 class="header_page_location">{{see_detail[0].name}}</h3>
+            <a href="#/see/{{see_detail[0].city_id}}/{{city_name}}"><img src="img/back.png"></a>
+            <a class="back_home" href="#/home"><img src="img/home.png"></a>
+        </div>
+        <div class="contain">
+            <div class="main_content_2">
+                <div class="content">
+                    <!-----------------------end search------------------>
+                    <div class="detail_post">
+                        <h1>{{see_detail[0].name}}</h1>
+                        <h2 ng-if="see_detail[0].address">ADDRESS : <br><i>{{see_detail[0].address}}</i> </h2>
+                        <h3 ng-if="see_detail[0].is_open">OPEN : {{see_detail[0].is_open}}</h3>
+                        <p ng-if="see_detail[0].description">{{see_detail[0].description}}</p>
+                    
+                        
+                    </div>
+                </div><!----- end content ------->
+            </div><!----- end main_content ------->
+        </div><!----- end contain ------->
+    </div><!----- end main ------->

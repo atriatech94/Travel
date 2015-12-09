@@ -1,0 +1,33 @@
+ <div class="main">
+        <div class="header_ppp">
+            <h3 class="header_page_location">AIRLINES</h3>
+            <a href="#/"><img src="img/back.png"></a>
+        </div>
+        <div class="contain">
+            <div class="main_content_2">
+                <div class="content">
+                    <div class="search">
+                        <input type="text" name="search" ng-model="search.$" class="search_inp" placeholder="SEARCH NAME,CITY OR ..." >
+                        <img src="img/search.png">
+                    </div>
+                    <!-----------------------end search------------------>
+                    <h3 class="for_title text_w_sh">AIRLINES</h3></h3>
+                    <div class="posts">
+                       
+                        <!-----------------------posts------------------>
+                  
+                        <a  class="post_one" ng-repeat="airline in  airlines.airlines | filter:search | orderBy:'airlines'" href="#/detail-airline/{{airline.id}}">
+                            <div class="img"><img src="img/bg/airline.jpg"></div>
+                            <span>
+                                <h4>{{airline.airlines}}</h4>
+                                <p>{{airline.description}}</p>
+                            </span>
+                        </a>    
+                        <!-----------------------end posts------------------>
+                     
+                       
+                    </div>
+                </div><!----- end content ------->
+            </div><!----- end main_content ------->
+        </div><!----- end contain ------->
+    </div><!----- end main ------->

@@ -1,0 +1,149 @@
+{"cities":[
+	 {
+        "id":"1",
+	    "about":"Tehran  is the capital of Iran and Tehran Province. With a population of around 9 million in the city and 16 million in the wider metropolitan area,[5] Tehran is the largest city and urban area of Iran, the second largest city in Western Asia, and the 3rd largest in the Middle East. It is ranked 29th in the world by the population of its metropolitan area.In the Classical era, part of the present-day city of Tehran was occupied by a Median city, which in the Avesta occurs as Rhaga. It was destroyed by the Mongols in the early 13th century, and remains now as a city in Tehran Province, located towards the southern end of the modern day city of Tehran.Tehran was first chosen as the capital of Iran by Agha Mohammad Khan of the Qajar dynasty in 1796, in order to remain within close reach of Iran's territories in the Caucasus, at that time still part of Iran, and to avoid the vying factions of previous Iranian dynasties. The capital has been moved several times throughout the history, and Tehran is the 32nd national capital of Iran.The city was the seat of the Qajars and Pahlavis, the two last imperial dynasties of the country. It is home to many historical collections, such as the royal complexes of Golestan, Saadabad, and Niavaran, as well as the country's most important governmental buildings of the modern period.",
+		"pic":"t-1.jpg",
+		"name":"TEHRAN",
+		"images":["t-2.jpg","t-3.jpg","t-4.jpg","t-5.jpg","t-6.jpg","t-1.jpg"],
+		"see":"1",
+		"eat":"1",
+		"hotel":"1",
+		"nightlife":"1"
+	 },
+	 
+	  {
+        "id":"2",
+	    "name":"KERMANSHAH",
+		"pic":"ke-1.jpg",
+		"about":"Because of its antiquity, attractive landscapes, rich culture and Neolithic villages, Kermanshah is considered one of the cradles of prehistoric cultures. According to archaeological surveys and excavation, the Kermanshah area has been occupied by prehistoric people since the Lower Paleolithic period, and continued to later Paleolithic periods till late Pleistocene period. The Lower Paleolithic evidence consists of some handaxes found in the Gakia area to the east of the city. The Middle Paleolithic remains have been found in the northern vicinity of the city in Tang-e Kenesht and near Taqwasan. Neanderthal Man existed in the Kermanshah region during this period. The known Paleolithic caves in this area are Warwasi, Qobeh,Malaverd and Do-Ashkaft Cave. The region was also one of the first places in which human settlements including Asiab, Qazanchi, Tappeh Sarab, Chia Jani, and Ganj-Darreh were established between 8,000-10,000 years ago. This is about the same time that the first potteries pertaining to Iran were made in Ganj-Darreh, near present-day Harsin. In May 2009, based on a research conducted by the University of Hamedan and UCL, the head of Archeology Research Center of Iran's Cultural Heritage and Tourism Organization announced that the one of the oldest prehistorian village in the Middle East dating back to 9800 B.P., was discovered in Sahneh, located west of Kermanshah. Remains of later village occupations and early Bronze Age are found in a number of mound sites in the city itself.",
+		"images":["ke-2.jpg","ke-3.jpg","ke-4.jpg","ke-1.jpg"],
+		"see":"1",
+		"eat":"1",
+		"hotel":"",
+		"nightlife":""
+	 },
+	 
+	  {
+        "id":"3",
+	    "name":"KHORAM ABAD",
+		"pic":"kh-1.jpg",
+		"about":"The city population is predominantly Lur and Lak, although the two groups are closely related. Although not a major tourist destination, it is quite scenic and possesses several attractions, such as 5 Paleolithic cave-dwelling sites. In the city center, a tall citadel called Falak-ol-Aflak (The Heaven of Heavens), a relic of the Sassanid era, is now a nationally popular museum. Economically, it is the regional base of the agricultural industry.",
+		"images":["kh-5.jpg","kh-2.jpg","kh-4.jpg","kh-3.jpg","kh-1.jpg"],
+		"see":"1",
+		"eat":"1",
+		"hotel":"1",
+		"nightlife":"1"
+	 },
+	 
+	  {
+        "id":"4",
+	    "name":"ESFEHAN",
+		"pic":"es-3.jpg",
+		"about":"Isfahan is located on the main north–south and east–west routes crossing Iran, and was once one of the largest cities in the world. It flourished from 1050 to 1722, particularly in the 16th century under the Safavid dynasty, when it became the capital of Persia for the second time in its history. Even today, the city retains much of its past glory. It is famous for its Persian–Islamic architecture, with many beautiful boulevards, covered bridges, palaces, mosques, and minarets. This led to the Persian proverb `Esfahān nesf-e- jahān ast`  (Isfahan is half of the world).The Naghsh-e Jahan Square in Isfahan is one of the largest city squares in the world and an outstanding example of Iranian and Islamic architecture. It has been designated by UNESCO as a World Heritage Site. The city also has a wide variety of historic monuments and is known for the paintings, history and architecture.",
+		"images":["es-2.jpg","es-3.jpg","es-4.jpg","es-5.jpg","es-1.jpg"],
+		"see":"1",
+		"eat":"1",
+		"hotel":"1",
+		"nightlife":""
+	 },
+	 
+	  {
+        "id":"5",
+	    "name":"SANANDAJ",
+		"pic":"sa-1.jpg",
+		"about":"At the 2011 census, its population was 373,987. Sanandaj is the twenty-third largest city in Iran. Until the 17th century it was only a small village,      when the governor of the region, Suleyman Khan Ardalan, built (or renovated) a fortress there, known as ‘Sena Dezh’, which gave the town its Persian name.      Some sources date the origin of the fortress to the period of Abbasid rule (750–1258).The small city of Sna is one of the cities in Kurdish region with         most Qwndars.",
+		"images":["sa-2.jpg","sa-3.jpg","sa-4.jpg","sa-5.jpg","sa-1.jpg","sa-6.jpg"],
+		"see":"1",
+		"eat":"1",
+		"hotel":"1",
+		"nightlife":"1"
+	 },
+	
+	   {
+        "id":"6",
+	    "name":"SHIRAZ",
+		"pic":"sh-1.jpg",
+		"about":"Shiraz is the sixth most populous city of Iran and the capital of Fars Province (Old Persian as Pârsâ). In 2009, the population of the city was 1,455,073. Shiraz is located in the southwest of Iran on the Roodkhaneye Khoshk (Dry River) seasonal river. It has a moderate climate and           has been a regional trade center for over a thousand years. It is regarded as one of the oldest cities of ancient Persia.Shiraz is known as the city of poets, literature, wine and flowers. It is also considered by many Iranians to be the city of gardens, due to the many gardens and fruit trees that can be seen in the city. Shiraz has had major Jewish and Christian communities. The crafts of Shiraz consist of inlaid mosaic work of triangular design; silver-ware, pile carpet-weaving and weaving of kilim, called gilim and jajim in the villages and among the tribes. In Shiraz industries such as cement production, sugar, fertilizers, textile products, wood products, metalwork and rugs dominate. Shirāz also has a major oil refinery and is also a major center for Iran's electronic industries: 53% of Iran's electronic investment has been centered in Shiraz.[8] Shiraz is home to Iran's first solar power plant. Recently the city's first wind turbine has been installed above Babakoohi mountain near the city.",
+		"images":["sh-2.jpg","sh-3.jpg","sh-4.jpg","sh-5.jpg","sh-1.jpg","sh-6.jpg"],
+		"see":"1",
+		"eat":"1",
+		"hotel":"1",
+		"nightlife":"1"
+	 },
+	 
+	   {
+        "id":"7",
+	    "name":"TABRIZ",
+		"pic":"ta-1.jpg",
+		"about":"The city has a long and turbulent history with its oldest civilization sites dated back to 1,500 B.C. It contains many historical monuments representing the transition of Iranian architecture in its long historical timelines. Most of the preserved historical sites in the city belong to Ilkhanid (of Mongol Empire), Safavid, and Qajar area, among them is the grand Bazaar of Tabriz which is inscribed as a World Heritage Site in 2010. From the early modern era, the city was pivotal in the development, movement, and economy of three neighboring regions, namely that of the Caucasus, Eastern Anatolia, and central Iran.[11] From the 19th century, it became the most important city in the country in numerous respects. As the closest Iranian hub to Europe, many aspects of the early modern modernisation in Iran started in Tabriz. Prior to the forced ceding of Iran's Caucasian territories to Imperial Russia following the two Russo-Persian Wars of the first half of the 19th century, Tabriz was the main city in the implementation of Iranian rule for its Caucasian territories due to its proximity. During almost the entire Qajar period (up to 1925), it functioned as the seat for the crown prince as well.",
+		"images":["ta-6.jpg","ta-2.jpg","ta-3.jpg","ta-4.jpg","ta-5.jpg","ta-1.jpg"],
+		"see":"1",
+		"eat":"1",
+		"hotel":"1",
+		"nightlife":""
+	 },
+	 
+	    {
+        "id":"8",
+	    "name":"UROMIA",
+		"pic":"u-1.jpg",
+		"about":"Urmia is the 10th most populated city in Iran. At the 2012 census, its population was 667,499 with 197,749 households.[3] The city's inhabitants are predominantly Iranian Azerbaijanis who speak the Azerbaijani language,.[4][5][6][7] There are also minorities of Kurds, Assyrians, and Armenians.[8] The city is the trading center for a fertile agricultural region where fruits (especially apples and grapes) and tobacco are grown.An important town by the 9th century, Urmia was seized by the Seljuk Turks (1184), and later occupied a number of times by the Ottoman Turks. For centuries the city has had a diverse population which has at times included Muslims (Shias and Sunnis), Christians (Catholics, Protestants, Nestorians, and Orthodox), Jews, Bahá'ís and Sufis. Around 1900, Christians made up more than 40% of the city's population, however, most of the Christians fled in 1918[9][10][10][11] as a result of the Persian Campaign during World War I and the Armenian and Assyrian Genocides.",
+		"images":["u-2.jpg","u-6.jpg","u-3.jpg","u-4.jpg","u-5.jpg","u-1.jpg"],
+		"see":"1",
+		"eat":"1",
+		"hotel":"1",
+		"nightlife":""
+	 },
+	
+	 {
+        "id":"9",
+	    "name":"YAZD",
+		"pic":"y-1.jpg",
+		"about":"Yazd has a history of over 5,000 years, dating back to the time of the Median empire, when it was known as ‘Ysatis’ (or ‘Issatis’). The present city name, however, is derived from Yazdegerd I, a Sassanid ruler. The city was definitely a Zoroastrian centre during Sassanid times. After the Arab Islamic conquest of Persia, many Zoroastrians migrated to Yazd from neighbouring provinces. By paying a levy, Yazd was allowed to remain Zoroastrian even after its conquest, and Islam only gradually became the dominant religion in the city.",
+		"images":["y-1.jpg","y-5.jpg","y-3.jpg","y-4.jpg","y-2.jpg"],
+		"see":"",
+		"eat":"1",
+		"hotel":"1",
+		"nightlife":""
+	 },
+	 
+	  {
+        "id":"10",
+	    "name":"ZANJAN",
+		"pic":"z-1.jpg",
+		"about":"Zanjan is known for its beautiful handcrafts such as knives, traditional sandals, called charoogh, and malileh, a handcraft made with silver wires. Zanjani artists make many things like various decorative dishes and their special covers as well as silver jewelry. In ancient times, Zanjan was known for its stainless and sharp knives. But this tradition is gradually becoming extinct by introduction of Chinese-made knives into the market which are far cheaper, more abundant and of course less artistic citation needed. Many villagers today are traditional carpet weavers, perhaps Zanjan's most popular handcraft. Zanjan's population boasts the highest level of happiness among the people of 30 other provinces in Iran, according to a detailed survey conducted by Isna.",
+		"images":["z-1.jpg","z-5.jpg","z-3.jpg","z-4.jpg","z-2.jpg"],
+		"see":"1",
+		"eat":"1",
+		"hotel":"1",
+		"nightlife":""
+	 },
+	 
+	 {
+        "id":"11",
+	    "name":"KHOZESTAN",
+		"pic":"kho-1.jpg",
+		"about":"As the most ancient Iranian province, it is often referred to as the 'birthplace of the nation', as this is where the history of the Persian Empire begins. Historically, one of the most important regions of the Ancient Near East, Khuzestan is what historians refer to as ancient Elam, whose capital was in Susa. The Achaemenid Old Persian term for Elam was Hujiyā, which is present in the modern name. Khuzestan, meaning ‘the Land of the Khuz’ refers to the original inhabitants of this province, the ‘Susian’ people (Old Persian 'Huza' or Huja (as in the inscription at the tomb of Darius the Great at Naqsh-e Rostam, (the Shushan of the Hebrew sources) where it is recorded as inscription as 'Hauja' or 'Huja'). In Middle Persian the term evolves into 'Khuz' and 'Kuzi'. The pre-Islamic Partho-Sasanian Inscriptions gives the name of the province as Khwuzestan.",
+		"images":["kho-3.jpg","kho-2.jpg","kho-4.jpg","kho-5.jpg","kho-1.jpg"],
+		"see":"",
+		"eat":"",
+		"hotel":"1",
+		"nightlife":""
+	 },
+	 
+	 {
+        "id":"12",
+	    "name":"TAFRESH",
+		"pic":"taf-1.jpg",
+		"about":"Tafresh has provided Iran with many notable figures such as poets, ministers, statesmen, scientists, calligraphers etc. Among them are Nizami Ganjavi, the greatest romantic epic poet in Persian literature. Some scholars believe that his ancestry from his father-side was in Tafresh. Others include Professor Mahmoud Hessaby, the father of modern physics in Iran, Ahmad Parsa, the father of Iranian botanics, Abbas Sahab, the father of Cartography science in Iran and Abdolkarim Qarib, the father of Iran's geology. Many famous Iranians were from Tafresh, Because of this, Tafresh has received the nickname 'City of Iran's Fathers'.It is believed that in Sasanian times, Zoroastrianism was the state religion and was threatened by Islam, an army warrior called Delaram made a resistance force for the Zoroastrians in Tafresh. One of the villages in Tafresh was called 'Delaram' after this army warrior, however after Islamic conquest of Persia, the name Teraran was given to it. Teraran means 'The Thieves' in Middle Persian.Today there are still many remaining of Zoroastrian strongholds in and around the town, particularly on the summits of the surrounding mountains and hills also remaining of the Zoroastrians graveyards can be seen specially in Kaburan village near Tafresh.",
+		"images":["taf-3.jpg","taf-2.jpg","taf-4.jpg","taf-5.jpg","taf-1.jpg"],
+		"see":"1",
+		"eat":"",
+		"hotel":"1",
+		"nightlife":""
+	 }
+	
+	  
+	
+	
+]}

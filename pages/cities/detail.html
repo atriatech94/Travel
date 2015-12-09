@@ -1,0 +1,50 @@
+<city-dir>
+    <div class="main">
+        <div class="header_ppp">
+            <h3 class="header_page_location">{{city_detail[0].name}}</h3>
+            <a href="#/cities"><img src="img/back.png"></a>
+            <a class="back_home" href="#/home"><img src="img/home.png"></a>
+        </div>
+        <div class="contain city_block content2">
+            <div class="hader_of_page"><h3>{{city_detail[0].name}}</h3></div>
+            <div class="main_content">
+                <div class="btn_home">
+                    <!--
+                    <div class="citys_name border_box">
+                        <a class="tab_contain border_box blue_city" href="#/"><img src="img/weather.png" class="thumbs"><span>Weather</span><p>Open Shiraz</p></a>
+                        <a class="tab_contain near_by border_box" href="#/"><span>Near location to chechout</span></a>
+                        <div class="clear"></div>
+                    </div>
+                    -->
+                    <div class="clear"></div>
+                     <!--==========end citys_name=============-->
+                    <h3>Explore</h3>
+                    <a class="btn_menu" ng-if="city_detail[0].see" href="#/see/{{city_detail[0].id}}/{{city_detail[0].name}}"><div class="img_frame orange"><img src="img/see.png" class="thumbs"></div><span>See</span></a>
+                    <a class="btn_menu" ng-if="city_detail[0].hotel" href="#/hotel/{{city_detail[0].id}}/{{city_detail[0].name}}"><div class="img_frame blue"><img src="img/game.png" class="thumbs" /></div><span>Hotels</span></a>
+                    <a class="btn_menu" ng-if="city_detail[0].eat" href="#/eat/{{city_detail[0].id}}/{{city_detail[0].name}}"><div class="img_frame green"><img src="img/eat.png" class="thumbs" /></div><span>Eat</span></a>
+                    <a class="btn_menu" ng-if="city_detail[0].nightlife" href="#/nightlife/{{city_detail[0].id}}/{{city_detail[0].name}}"><div class="img_frame red"><img src="img/rest.png" class="thumbs" /></div><span>Nightlife</span></a>
+                    <div class="clear"></div>
+                     <!--=========end btn_menu==============-->
+                    <h3 class="mt25">ABOUT {{city_detail[0].name}}</h3>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div ng-repeat="image in city_detail[0].images" class="swiper-slide" style="background-image:url(img/city/{{image}})"></div>
+                         </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                  <br>
+                     <p  class="city_about">
+                            {{city_detail[0].about}}
+                    </p>
+                    <!--<h3 class="mt25">About {{city_detail[0].name}}</h3>
+                    <div class="about_city bg_w border_box">
+                        <img ng-src="img/city/{{city_detail[0].about_pic}}"/>
+                       
+                    </div>
+                    -->
+                    <!--=========end about_city==============-->
+                </div>
+            </div>
+        </div>
+    </div>
+</city-dir>

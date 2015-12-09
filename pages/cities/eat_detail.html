@@ -1,0 +1,22 @@
+
+    <div class="main">
+        <div class="header_ppp">
+            <h3 class="header_page_location">{{eat_detail[0].name}}</h3>
+            <a href="#/eat/{{eat_detail[0].city_id}}/{{city_name}}"><img src="img/back.png"></a>
+            <a class="back_home" href="#/home"><img src="img/home.png"></a>
+        </div>
+        <div class="contain">
+            <div class="main_content_2">
+                <div class="content">
+                    <!-----------------------end search------------------>
+                    <div class="detail_post">
+                        <h1>{{eat_detail[0].name}}</h1>
+                        <h2 ng-if="eat_detail[0].address">ADDRESS : <i> {{eat_detail[0].address}}</i></h2>
+                        <h2 ng-if="eat_detail[0].is_open">OPEN : <i> {{eat_detail[0].is_open}}</i></h2>
+                        <p ng-if="eat_detail[0].description">{{eat_detail[0].description}}</p>
+                        
+                    </div>
+                </div><!----- end content ------->
+            </div><!----- end main_content ------->
+        </div><!----- end contain ------->
+    </div><!----- end main ------->

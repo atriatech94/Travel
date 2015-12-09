@@ -1,0 +1,26 @@
+
+    <div class="main">
+        <div class="header_ppp">
+            <h3 class="header_page_location" ng-if="iranian_detail[0].city">{{iranian_detail[0].city}}</h3>
+            <h3 class="header_page_location" ng-if="!iranian_detail[0].city">{{iranian_detail[0].country}}</h3>
+            <a href="#/iranian_embassies"><img src="img/back.png"></a>
+        </div>
+        <div class="contain">
+            <div class="main_content_2">
+                <div class="content">
+                    <!-----------------------end search------------------>
+                    <div class="detail_post">
+                        <h1>{{iranian_detail[0].country}}</h1>
+                        <h2 ng-if="iranian_detail[0].city"> CITY :<i> {{iranian_detail[0].city}}</i></h2>
+                        <h2  ng-if="iranian_detail[0].saddress">ADDRESS : <i>{{iranian_detail[0].saddress}} </i> </h2>
+                        <h2  ng-if="iranian_detail[0].diplomatic_mission">Diplomatic mission : <i>{{iranian_detail[0].diplomatic_mission}} </i></h2>
+                        <tell ng-if="iranian_detail[0].area_code"> AREA CODE :<i> {{iranian_detail[0].area_code}}<i></tell>
+                        <tell ng-if="iranian_detail[0].tel"> TELL : <i> {{iranian_detail[0].tel}}</i></tell>
+                        <a ng-if="iranian_detail[0].website"> WEBSITE :<i> {{iranian_detail[0].website}}</i></a>
+                      
+                       
+                    </div>
+                </div><!----- end content ------->
+            </div><!----- end main_content ------->
+        </div><!----- end contain ------->
+    </div><!----- end main ------->

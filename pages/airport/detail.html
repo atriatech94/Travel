@@ -1,0 +1,25 @@
+
+    <div class="main">
+        <div class="header_ppp">
+            <h3 class="header_page_location">{{airport_detail[0].Name_of_the_Airports}}</h3>
+            <a href="#/airport"><img src="img/back.png"></a>
+            <a class="back_home" href="#/home"><img src="img/home.png"></a>
+        </div>
+        <div class="contain">
+            <div class="main_content_2">
+                <div class="content">
+                    <!-----------------------end search------------------>
+                    <div class="detail_post">
+                        <h1>{{airport_detail[0].Name_of_the_Airports}}</h1>
+                        <h2 ng-if="airport_detail[0].City">{{airport_detail[0].City}}</h2>
+                        <h2 ng-if="airport_detail[0].Destinations">Destinations :<i> {{airport_detail[0].Destinations}} </i></h2>
+                        <h2 ng-if="airport_detail[0].International_Airlines">International Airlines :
+                            <i> {{airport_detail[0].International_Airlines}}</i></h2>
+                        <h2 ng-if="airport_detail[0].Visa" >Visa : <i>{{airport_detail[0].Visa}}</i></h2>
+                        <h2 ng-if="airport_detail[0].Website" >Website :<i> {{airport_detail[0].Website}}</i></a>
+                        <tell ng-if="airport_detail[0].Tel"> Tell : <i>{{airport_detail[0].Tel}}</i></tell>
+                    </div>
+                </div><!----- end content ------->
+            </div><!----- end main_content ------->
+        </div><!----- end contain ------->
+    </div><!----- end main ------->

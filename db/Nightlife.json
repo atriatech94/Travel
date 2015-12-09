@@ -1,0 +1,85 @@
+{"Top_Nightlife":[
+    {"name":"EFalak-ol-Aflak Castle",
+	 "description":"Falak-ol-Aflak Castle іs а castle situated оn the top оf а large hill wіth the same name within the city оf Khorramabad, the regional capital оf Lorestan province, Iran. Thіs gigantic structure wаs built during the Sassanid era (226–651). ",
+	 "address":"Falak-ol-Aflak st.",
+	 "city_id":"3",
+	 "id":"1",
+	 "open":""
+	 },
+	 {"name":"Minar-e Ajon",
+	 "description":"The 20m-high pale brick tower called Minar-e Ajon might look like a chimney but it was actually a 900-year-old signalling point for caravans.",
+	 "address":"Shaqayeq Sq.",
+	 "city_id":"3",
+	 "id":"2",
+	 "open":""
+	 },
+	 {"name":"Tavasuli Mosque",
+	 "description":"The low-key Tavasuli Mosque was photogenic till they built a big mobile telephone tower behind it.",
+	 "address":"Shakaster St.",
+	 "city_id":"3",
+	 "id":"3",
+	 "open":""
+	 },
+	  {"name":"Gerdab-e-Sangi",
+	 "description":"Gerdab-e-Sangi is a 1600-year-old Sassanian stone reservoir, 18m in diameter, said to be the world’s oldest. Spring water wells up within and once provided the proto-city’s water supply.",
+	 "address":"Takht Sq.",
+	 "city_id":"3",
+	 "id":"4",
+	 "open":""
+	 },
+	   {"name":"inscribed Stone",
+	 "description":"In a stone-edged circle beside thundering Shari’ati St is an inscribed stone from around AD 1150, apparently setting out details of local grazing rights.",
+	 "address":"Sang Neveshteh Alley.",
+	 "city_id":"3",
+	 "id":"5",
+	 "open":""
+	 },
+	 
+	  {"name":"Shaida",
+	 "description":"Shaida іs а cinema іn Sanandaj. ",
+	 "address":"sanandaj",
+	 "city_id":"5",
+	 "id":"6",
+	 "open":""
+	 },
+	  
+	 {"name":"Cinema sa'adi",
+	 "description":"It’s the most famous cinema in shiraz. ",
+	 "address":"Tel: +98 713 233 0791",
+	  "city_id":"6",
+	 "id":"7",
+	 "open":""
+	 },
+	  {"name":"Khajo Teahouse",
+	 "description":"Khajo Teahouse іs а bar іn Shiraz. ",
+	 "address":"Khajo Mausoleum, qoran gate, shiraz Tel:+98 9117111365",
+	  "city_id":"6",
+	 "id":"8",
+	 "open":""
+	 },
+	  
+	{"name":"Sanaee Coffee Shop",
+	 "description":"Sanaee makes and sells all manner of imported bean, and some of the richest and best chocolate milkshakes on earth (you be the judge).",
+	 "address":"No.6, sanaee st.",
+	   "city_id":"1",
+	 "id":"9",
+	 "open":""
+	 },
+	  {"name":"Gandi 35",
+	 "description":"This hip café is popular and serves tasty and fair-value light meals with its range of coffee",
+	 "address":"Gandhi Ave. Amaniyeh Tel: +98 21 88781646",
+	   "city_id":"1",
+	 "id":"10",
+	 "open":""
+	 },
+	   {"name":"Chai bar",
+	 "description":"located іn а beautiful historic garden іn Tehran. Іt іs аn ideal place tо spend late afternoons/evenings. Іt offers great selection оf teas аnd coffees аs well аs sandwiches",
+	 "address":"145 North Salimi Blvd Tel: +98 21 2221 0310s",
+	  "city_id":"1",
+	 "id":"11",
+	 "open":""
+	 }
+	    
+	
+	
+]}

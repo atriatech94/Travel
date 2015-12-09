@@ -1,0 +1,22 @@
+
+    <div class="main">
+        <div class="header_ppp">
+            <h3 class="header_page_location">{{embassies_detail[0].embassies}}</h3>
+            <a href="#/embassies"><img src="img/back.png"></a>
+            <a class="back_home" href="#/home"><img src="img/home.png"></a>
+        </div>
+        <div class="contain">
+            <div class="main_content_2">
+                <div class="content">
+                    <!-----------------------end search------------------>
+                    <div class="detail_post">
+                        <h1>{{embassies_detail[0].embassies}}</h1>
+                        <h2 ng-if="embassies_detail[0].address"> ADDRESS : <i> {{embassies_detail[0].address}}</i></h2>
+                        <tell ng-if="embassies_detail[0].tell"> TELL : <i> {{embassies_detail[0].tell}} </i></tell>
+                        <tell ng-if="embassies_detail[0].fax"> FAX : <i> {{embassies_detail[0].fax}}</i></tell>
+                       
+                    </div>
+                </div><!----- end content ------->
+            </div><!----- end main_content ------->
+        </div><!----- end contain ------->
+    </div><!----- end main ------->

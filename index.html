@@ -1,0 +1,45 @@
+<!doctype html>
+<html ng-app="myapp">
+<head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, target-densityDpi=device-dpi" />
+    <!------ Style ----------------------------------------------------------->
+    <link rel="stylesheet" media="all" href="css/reset.min.css" type="text/css">
+    <link rel="stylesheet" media="all" href="css/style.css"  type="text/css">
+    <link rel="stylesheet" media="all" href="css/swiper.min.css"  type="text/css">
+   
+    <!------ Auto loaded----------------------------------------------------------->
+    <script  type="text/javascript" src="js/angular.min.js"></script>
+    <script  type="text/javascript" src="js/angular-route.min.js"></script>
+    <script  type="text/javascript" src="js/angular-animate.min.js"></script>
+    <script  type="text/javascript" src="js/swiper.min.js"></script>
+    <!------ Auto loaded----------------------------------------------------------->
+   
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/routes.js"></script>  
+    <script type="text/javascript" src="js/index.js"></script> 
+    <!------ controller----------------------------------------------------------->
+     <script src="js/controller/airlines-controller.js"></script>
+     <script src="js/controller/city-controller.js"></script>
+    <!------ library----------------------------------------------------------->
+	 <script type='application/javascript' src='js/fastclick.js'></script>
+     <script>
+       if ('addEventListener' in document) {
+           document.addEventListener('DOMContentLoaded', function() {
+               FastClick.attach(document.body);
+           }, false);
+       }
+     </script>
+   <!--   <script type="text/javascript" src="cordova.js"></script> -->  
+  <!------ controller----------------------------------------------------------->
+  
+<title>Irantravel</title>
+</head>
+    <body>
+        <div class="bg_fix">
+            <div ng-view class="fade"></div>
+        </div>
+      </body>
+</html>
