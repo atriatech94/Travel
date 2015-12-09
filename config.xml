@@ -4,6 +4,7 @@
   <author href="http://atriatech.ir" email="info@atriatech.ir">ATRIATECH</author>
  <content src="index.html"/>
   <preference name="permissions" value="none"/>
+  <preference name="orientation" value="default"/>
   <preference name="target-device" value="universal"/>
   <preference name="fullscreen" value="true"/>
   <preference name="webviewbounce" value="false"/>
@@ -17,10 +18,10 @@
   <preference name="disable-cursor" value="false"/>
   <preference name="android-minSdkVersion" value="14"/>
   <preference name="android-installLocation" value="auto"/>
-  <preference name="UIWebViewBounce" value="false" />
+  
   <plugin name="br.com.paveisitemas.splashscreen" spec="2.1.1" source="pgb" />
   <plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" spec="1.2.0" source="pgb" />
-
+<platform name="ios|winphone|wp8|android" />
 <platform name="ios">
   <icon src="ios/icons/100.png" width="100" height="100" />
   <splash src="ios/splash/default.png" width="320" height="480" />
