@@ -1,9 +1,9 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="ir.atriatech.zibajoo" version="1.0.1">
   <name>Iran Travel</name>
-   <description>Iran Travel App is your offline  travel guide to Iran, easy way to find traveling to Iran, Update information about Iranian Visa and last offer of Iran Tours Packages. This application is new app from Iran Traveling Center</description>
+   <description>Iran Travel</description>
   <author href="http://atriatech.ir" email="info@atriatech.ir">ATRIATECH</author>
  <content src="index.html"/>
-  <preference name="permissions" value="none"/>
+   <preference name="permissions" value="none"/>
   <preference name="target-device" value="universal"/>
   <preference name="fullscreen" value="true"/>
   <preference name="webviewbounce" value="false"/>
@@ -18,8 +18,12 @@
   <preference name="android-minSdkVersion" value="14"/>
   <preference name="android-installLocation" value="auto"/>
   <preference name="UIWebViewBounce" value="false" />
+  <gap:plugin name="org.apache.cordova.console" source="npm" />
   <gap:plugin name="org.apache.cordova.splashscreen" source="npm" />
+  <gap:plugin name="org.apache.cordova.device" source="npm" />
   <gap:plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay"/>
+  <gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
+  <gap:plugin name="com.dawsonloudon.videoplayer" version="1.0.0" />
 
  <icon src="icon.png" />
   <icon src="res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:qualifier="ldpi"/>
@@ -87,7 +91,15 @@
   <gap:splash src="res/screen/ios/screen-ipad-landscape-2x.png"        gap:platform="ios"     width="2048" height="1496" />
   <gap:splash src="res/screen/ios/screen-iphone-portrait-568h-2x.png"  gap:platform="ios"     width="640"  height="1136" />
 
-  
+  <gap:plugin name="cordova-plugin-whitelist" source="npm" />
+  <access origin="*"/>
+
+  <allow-intent href="http://*/*"/>
+  <allow-intent href="https://*/*"/>
+  <allow-intent href="tel:*"/>
+  <allow-intent href="sms:*"/>
+  <allow-intent href="mailto:*"/>
+  <allow-intent href="geo:*"/>
   <platform name="android">
     <allow-intent href="market:*"/>
   </platform>
