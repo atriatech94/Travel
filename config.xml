@@ -1,6 +1,6 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="ir.atriatech.zibajoo" version="1.0.1">
-  <name>Zibajoo</name>
-   <description>Medical</description>
+  <name>Iran Travel</name>
+   <description>Iran Travel App is your offline  travel guide to Iran, easy way to find traveling to Iran, Update information about Iranian Visa and last offer of Iran Tours Packages. This application is new app from Iran Traveling Center</description>
   <author href="http://atriatech.ir" email="info@atriatech.ir">ATRIATECH</author>
  <content src="index.html"/>
   <preference name="permissions" value="none"/>
@@ -87,15 +87,7 @@
   <gap:splash src="res/screen/ios/screen-ipad-landscape-2x.png"        gap:platform="ios"     width="2048" height="1496" />
   <gap:splash src="res/screen/ios/screen-iphone-portrait-568h-2x.png"  gap:platform="ios"     width="640"  height="1136" />
 
-  <gap:plugin name="cordova-plugin-whitelist" source="npm" />
-  <access origin="*"/>
-
-  <allow-intent href="http://*/*"/>
-  <allow-intent href="https://*/*"/>
-  <allow-intent href="tel:*"/>
-  <allow-intent href="sms:*"/>
-  <allow-intent href="mailto:*"/>
-  <allow-intent href="geo:*"/>
+  
   <platform name="android">
     <allow-intent href="market:*"/>
   </platform>
