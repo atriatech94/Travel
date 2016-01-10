@@ -6,6 +6,7 @@ angular.module('myapp')
 			   $rootScope.cities = data.cities;
           
 		 });
+    scr();
             
 })
 
@@ -13,10 +14,11 @@ angular.module('myapp')
             
     $scope.city_detail = $filter('filter')($rootScope.cities,{id:$routeParams.id},true);
 	console.log($scope.city_detail);
-   $timeout(function() {
+  
+    $timeout(function() {
      var swiper = new Swiper('.swiper-container', {
         pagination: '.swiper-pagination',
-        paginationClickable: true
+        paginationClickable: true,
     });
   });       
 })
@@ -99,5 +101,113 @@ angular.module('myapp')
 			 $scope.city_name = $routeParams.name;
 			  
 	       
-});
+})
+.directive('contactAs', function ($http){
+		return {
+			link: function() {
+                    
+                /*==========================================================================*/
+            $('#name').focus(function(){
+                  $('#name_check').hide();
+            }); 
+             $('#nationality').focus(function(){
+                  $('#nationality_check').hide();
+            }); 
+             $('#email').focus(function(){
+                  $('#email_check').hide();
+            }); 
+             $('#interested').focus(function(){
+                  $('#interested_check').hide();
+            }); 
+             $('#message').focus(function(){
+                  $('#message_check').hide();
+            }); 
+            
+            $('form').submit(function(){
+              
+                var name = $('#name').val();
+                var nationality = $('#nationality').val();
+                var email = $('#email').val();
+                var interested = $('#interested').val();
+                var message = $('#message').val();
+                if(name == "")
+                {
+                    $('#name_check').show();
+                    $('#name_check').text('Please enter your name');
+                }    
+                 if(nationality == "")
+                {
+                     $('#nationality_check').show();
+                     $('#nationality_check').text('Please enter your nationality');
+                }    
+                 if(email == "")
+                {
+                    $('#email_check').show();
+                     $('#email_check').text('Please enter your email');
+                } 
+                var mail = 0;
+                var atpos = email.indexOf("@");
+                var dotpos = email.lastIndexOf(".");
+                if ((atpos < 1 || ( dotpos - atpos < 2 ))  && email != "") 
+                    {
+                         $('#email_check').show();
+                         $('#email_check').text('Please enter a valid email');
+                         
+                    } 
+                    else
+                    {
+                        mail = 1;
+                    }  
+                 if(interested == "")
+                {
+                     $('#interested_check').show();
+                     $('#interested_check').text('Please enter your interest');
+                }    
+                  if(message == "")
+                {
+                     $('#message_check').show();
+                     $('#message_check').text('Please enter your message');
+                } 
+                if(name == "" || nationality == "" || email == "" || interested == "" || message == "" || mail==0 )
+                {
+                    return false;
+                }            
+              var request =  $.ajax({
+                    method: "POST",
+                    url: "http://www.irantravelingcenter.com/app/home",
+                    data: { 
+                            name: name,
+                            nationality:  nationality,
+                            email:  email,
+                            interested:  interested,
+                            message:  message,
+                            pass : "FESwqwmuufde@@wsdfr"
+                          }
+                    });
+                    
+                   request.done(function( msg ) {
+                       $('#msg').show();
+                       $("#msg").text("Your messege successfully sent");
+                    });
+ 
+                    request.fail(function( jqXHR, textStatus ) {
+                       $('#msg').show();
+                       $("#msg").text("Please check your Internet conection");
+                    });
+              return false;                      
 
+           });
+                 
+              
+                /*==========================================================================*/
+                  
+            },//end link
+            
+        }
+});
+function scr()
+{
+    $(function () { 
+      //  $(".content").niceScroll({cursorcolor:"rgba(95, 95, 95, 0.76)"});
+    });
+}

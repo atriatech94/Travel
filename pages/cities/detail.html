@@ -23,15 +23,18 @@
                     <a class="btn_menu" ng-if="city_detail[0].hotel" href="#/hotel/{{city_detail[0].id}}/{{city_detail[0].name}}"><div class="img_frame blue"><img src="img/game.png" class="thumbs" /></div><span>Hotels</span></a>
                     <a class="btn_menu" ng-if="city_detail[0].eat" href="#/eat/{{city_detail[0].id}}/{{city_detail[0].name}}"><div class="img_frame green"><img src="img/eat.png" class="thumbs" /></div><span>Eat</span></a>
                     <a class="btn_menu" ng-if="city_detail[0].nightlife" href="#/nightlife/{{city_detail[0].id}}/{{city_detail[0].name}}"><div class="img_frame red"><img src="img/rest.png" class="thumbs" /></div><span>Nightlife</span></a>
+                    <a class="btn_menu" href="#/tours"><div class="img_frame perpel"><img src="img/icon/tours.png" class="thumbs"></div><span>Tours</span></a>
                     <div class="clear"></div>
                      <!--=========end btn_menu==============-->
                     <h3 class="mt25">ABOUT {{city_detail[0].name}}</h3>
-                    <div class="swiper-container">
-                        <div class="swiper-wrapper">
-                            <div ng-repeat="image in city_detail[0].images" class="swiper-slide" style="background-image:url(img/city/{{image}})"></div>
-                         </div>
-                    <div class="swiper-pagination"></div>
-                  </div>
+                    <div class="img_slider">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div ng-repeat="image in city_detail[0].images" class="swiper-slide" style="background-image:url(img/city/{{image}})"></div>
+                             </div>
+                        <div class="swiper-pagination"></div>
+                      </div>
+                    
                   <br>
                      <p  class="city_about">
                             {{city_detail[0].about}}

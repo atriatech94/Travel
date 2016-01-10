@@ -5,6 +5,33 @@ angular.module('myapp')
               controller: 'homeController',
            
         })
+        .when('/about', {
+             templateUrl: 'pages/about/index.html',   
+        })
+         .when('/contact', {
+             templateUrl: 'pages/contact/index.html',   
+        })
+        
+        .when('/tours', {
+             templateUrl: 'pages/tours/index.html',   
+        })
+         .when('/book', {
+             templateUrl: 'pages/tours/book.html',   
+        })
+        
+          .when('/t-daily', {
+             templateUrl: 'pages/tours/t-daily.html',   
+        })
+          .when('/t-15', {
+             templateUrl: 'pages/tours/t-15.html',   
+        })
+          .when('/t-16', {
+             templateUrl: 'pages/tours/t-16.html',   
+        })
+          .when('/t-plan', {
+             templateUrl: 'pages/tours/t-plan.html',   
+        })
+        
          .when('/airlines', {
              templateUrl: 'pages/airlines/index.html',
              controller: 'airlinesController',
