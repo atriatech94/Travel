@@ -21,6 +21,7 @@
   
   <plugin name="br.com.paveisitemas.splashscreen" spec="2.1.1" source="pgb" />
   <plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" spec="1.2.0" source="pgb" />
+  <plugin name="com.phonegap.plugins.childbrowser" spec="5.0.0" source="pgb" />
 
 
 <platform name="ios">
@@ -70,8 +71,20 @@
 </platform>
 
 <platform name="android">
-  <icon src="android/ldpi.png" gap:platform="android" gap:density="ldpi" />
-  <splash src="android/ldpi.png" gap:platform="android" gap:qualifier="lhdpi" />
+
+  <icon src="res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:qualifier="ldpi"/>
+  <icon src="res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:qualifier="mdpi"/>
+  <icon src="res/icon/android/icon-72-hdpi.png" gap:platform="android" gap:qualifier="hdpi"/>
+  <icon src="res/icon/android/icon-96-xhdpi.png" gap:platform="android" gap:qualifier="xhdpi"/>
+
+   <splash src="res/screen/android/splash-land-hdpi.png" gap:platform="android" density="land-hdpi"/>
+    <splash src="res/screen/android/splash-land-ldpi.png" gap:platform="android" density="land-ldpi"/>
+    <splash src="res/screen/android/splash-land-mdpi.png" gap:platform="android" density="land-mdpi"/>
+    <splash src="res/screen/android/splash-land-xhdpi.png" gap:platform="android" density="land-xhdpi"/>
+    <splash src="res/screen/android/splash-port-hdpi.png" gap:platform="android" density="port-hdpi"/>
+    <splash src="res/screen/android/splash-port-ldpi.png" gap:platform="android" density="port-ldpi"/>
+    <splash src="res/screen/android/splash-port-mdpi.png" gap:platform="android" density="port-mdpi"/>
+    <splash src="res/screen/android/splash-port-xhdpi.png" gap:platform="android" density="port-xhdpi"/>
 </platform>
  
 
