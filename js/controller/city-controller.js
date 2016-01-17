@@ -10,6 +10,19 @@ angular.module('myapp')
             
 })
 
+.controller('ContactController', function($scope) {
+     $scope.go = function() {
+
+       window.open('http://www.irantravelingcenter.com', '_system');
+  }
+  
+    $scope.go1 = function() {
+
+       window.open('https://www.google.com/maps?ll=29.627188,52.540977&z=16&t=m&hl=en-US&gl=US&mapclient=embed&cid=12241975311526808310', '_system');
+  }
+            
+})
+
 .controller('CitydetailController', function($scope,$routeParams,$rootScope,$filter, $timeout) {
             
     $scope.city_detail = $filter('filter')($rootScope.cities,{id:$routeParams.id},true);

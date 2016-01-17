@@ -9,7 +9,8 @@ angular.module('myapp')
              templateUrl: 'pages/about/index.html',   
         })
          .when('/contact', {
-             templateUrl: 'pages/contact/index.html',   
+             templateUrl: 'pages/contact/index.html',
+             controller: 'ContactController',   
         })
         
         .when('/tours', {
