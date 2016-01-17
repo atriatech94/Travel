@@ -21,7 +21,7 @@
   
   <plugin name="br.com.paveisitemas.splashscreen" spec="2.1.1" source="pgb" />
   <plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" spec="1.2.0" source="pgb" />
-  <plugin name="com.phonegap.plugins.childbrowser" spec="5.0.0" source="pgb" />
+  <plugin name="com.cordova.plugin.inappbrowser.with.loading.spinner" spec="1.0.13" source="pgb" />
 
 
 <platform name="ios">
