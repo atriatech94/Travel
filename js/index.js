@@ -23,12 +23,16 @@ function amintest(){
     
     var loc =   window.location.hash;
     loc = loc.replace("#/", "");
-
+    
   if(loc == "home" || loc == "" )
     {
 	  
        navigator.app.exitApp(); 
        
+    }
+    else
+    {
+       navigator.app.backHistory(); 
     }                         
 
 }
