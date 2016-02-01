@@ -32,7 +32,7 @@ function amintest(){
     }
     else
     {
-       navigator.app.backHistory(); 
+       $('img[src="img/back.png"]').trigger("click");
     }                         
 
 }
