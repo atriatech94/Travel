@@ -16,6 +16,23 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+document.addEventListener("backbutton",amintest, false);
+function amintest(){
+                        
+    
+    
+    var loc =   window.location.hash;
+    loc = loc.replace("#/", "");
+
+  if(loc == "home" || loc == "" )
+    {
+	  
+       navigator.app.exitApp(); 
+       
+    }                         
+
+}
+
 var app = {
     // Application Constructor
     initialize: function() {
@@ -47,3 +64,4 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
+
